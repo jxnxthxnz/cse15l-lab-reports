@@ -42,7 +42,7 @@ class SearchEngine {
 ```
 ![Image](AddWord1.png)
 ![Image](AddWord2.png)
--In both screeenshots, the method handRequest was called\
+-In both screeenshots, the method handleRequest was called\
 -In both screeenshots, the only relevant argument is `URI url` which is the url we enter. The relevant fields include the path (equal to `/add-message`), the string to return (intially equal to ""), and the query (equal to `s=word`, word can change based on what we enter).
 -In pic 1, the query is equal to `s=Bye`, and the string is equal to `"Bye" + "\n"` In pic 2, the query is equal to `s=How Are You Today`, and the string is equal to `"Bye" + "\n" + "How Are You Today" + "\n`
 
