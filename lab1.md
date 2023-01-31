@@ -11,10 +11,8 @@
 
 **Remotely Connecting**\
 -In VS Code, open up a terminal and enter: ```ssh cs15lwi23zz@ieng6.ucsd.edu``` (the zz should be replaced with letters specific to your account)\
--If you connect to a server for the first time, you’ll receive a message saying the authenticity can’t be established (**The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
-RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
-Are you sure you want to continue connecting (yes/no/[fingerprint])?** )\
--Type “yes” and press enter.\
+-If you connect to a server for the first time, you’ll receive a message saying the authenticity can’t be established: ```The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established. RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec. Are you sure you want to continue connecting (yes/no/[fingerprint])?** )```\
+-Type ```yes``` and press enter.\
 -Finally, enter your password (you will not be able to see what you type so type carefully)
 ![Image](remote.png)
 
