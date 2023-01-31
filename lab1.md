@@ -6,7 +6,7 @@
 **VS Code**\
 -Visit [Link](https://code.visualstudio.com/download) to download the version of VS Code that you need\
 -After installing it, open up VS Code\
--The following screenshot represents what you shouold see when VS Code opens
+-The following screenshot represents what you should see when VS Code opens
 ![Image](vs.png)
 
 **Remotely Connecting**\
