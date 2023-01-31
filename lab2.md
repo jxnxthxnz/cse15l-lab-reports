@@ -47,14 +47,16 @@ class SearchEngine {
 -In pic 1, the query is equal to `s=Bye`, and the string is equal to `"Bye" + "\n"` In pic 2, the query is equal to `s=How Are You Today`, and the string is equal to `"Bye" + "\n" + "How Are You Today" + "\n`
 
 **Part 2**
-```@Test 
+```
+@Test 
   public void testReverseBig() {
     int[] input = {1, 2, 3, 4};
     ArrayExamples.reverseInPlace(input);
     assertArrayEquals(new int[] {4, 3, 2, 1}, input);
   }
 ```
-``` @Test 
+``` 
+@Test 
   public void testReverseSame() {
     int[] input = {1, 2, 2, 1};
     ArrayExamples.reverseInPlace(input);
