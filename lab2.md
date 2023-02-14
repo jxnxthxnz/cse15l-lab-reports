@@ -44,7 +44,7 @@ class SearchEngine {
 ![Image](AddWord2.png)
 -In both screeenshots, the methods handleRequest(), getPath(), contains(), equals(), split(), and getQuery() were called\
 -In both screeenshots, the relevant argument for handleRequest() is `URI url` which is the url we enter. There are no relevant arguments for getPath (returns the path of the object) or getQuery (returns the query). The relevant argument for contains is `"/add-message"`, equals is `"/"`, and split is `"="`. The values include String x = `""` and parameters which is equal to `url.getQuery().split("=")`.\
--In pic 1, the query is equal to `s=Bye`, and my string x changes to `"Bye" + "\n"` which is what is displayed in the first pic.
+-In pic 1, the query is equal to `s=Bye`, and my string x changes to `"Bye" + "\n"` which is what is displayed in the first pic.\
 -In pic 2, the query is equal to `s=How Are You Today`, and my string x is equal to `"Bye" + "\n" + "How Are You Today" + "\n` which is what is displayed in the second pic.
 
 **Part 2**\
