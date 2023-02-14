@@ -46,7 +46,8 @@ class SearchEngine {
 -In both screeenshots, the only relevant argument is `URI url` which is the url we enter. The relevant fields include the path (equal to `/add-message`), the string to return (intially equal to ""), and the query (equal to `s=word`, word can change based on what we enter).\
 -In pic 1, the query is equal to `s=Bye`, and the string is equal to `"Bye" + "\n"` In pic 2, the query is equal to `s=How Are You Today`, and the string is equal to `"Bye" + "\n" + "How Are You Today" + "\n`
 
-**Part 2**
+**Part 2**\
+Failure-Inducing Input
 ```
 @Test 
   public void testReverseBig() {
@@ -55,6 +56,7 @@ class SearchEngine {
     assertArrayEquals(new int[] {4, 3, 2, 1}, input);
   }
 ```
+Non-Failure Input
 ``` 
 @Test 
   public void testReverseSame() {
@@ -65,6 +67,7 @@ class SearchEngine {
 ```
 ![Image](ReverseBig.png)
 ![Image](ReverseSame.png)
+Before
 ```
   static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length / 2; i += 1) {
@@ -72,6 +75,7 @@ class SearchEngine {
     }
   }
 ```
+After
 ```
   static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length / 2; i += 1) {
@@ -81,6 +85,7 @@ class SearchEngine {
     }
   }
 ```
+The initial code didn't work because it would replace the values in the first half of the array with the values from the second half of the array. For instance, the value at index 0 would be replaced by the value found in index x (size of the array - i - 1) which is in index in the second half of the array. The for loop would traverse through the entire first half of the array (as indicated by arr.length/2) and replace those values without replacing any values in the second half of the array, resulting in an incomplete reversal. In my fixed code, I made sure to replace values in both the first and second half of the array. For instance, I wanted to switch the values at index i and index x (size of the array - i - 1). I made sure to keep track of the value at index x while replacing index x's value with index i's value and then finally replacing index i's value with the value I had saved or the initial value at index x.
 The initial code didn't work because it did not replace any of the values in the second half of the array. In my fixed code, as the for loop traverses the array, both halves of the array have their values replaced with the correct reverse values.\
 **Part 3**\
 In week 2, I learned about urls and more specifically, what the path and the query are and how to identify them in a url. In week 3, I learned about JUnit as a way to test my programs. Typically, I would have to handwrite my expected results and compare them to the programs which was bothersome at times. With JUnit, it makes the debugging process much more efficient and effective. 
