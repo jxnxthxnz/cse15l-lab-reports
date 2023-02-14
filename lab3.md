@@ -32,7 +32,8 @@ written_2//travel_guides/berlitz2/Nepal-WhatToDo.txt
 written_2//travel_guides/berlitz2/Paris-WhatToDo.txt
 written_2//travel_guides/berlitz2/Beijing-WhatToDo.txt
 ```
-The -i option was used which means we can search for a specific string ("todo" in this example) insensitively (upper case and lower case does not make a difference). This option is useful when we want to search for a specifc word when there's both upper case and lower case versions of the word.
+The -i option was used which means we can search for a specific string ("todo" in this example) insensitively (upper case and lower case does not make a difference). This option is useful when we want to search for a specifc word when there's both upper case and lower case versions of the word.\
+Source: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 **Example 2**
 ```
@@ -64,7 +65,8 @@ written_2//travel_guides/berlitz2/Beijing-WhereToGo.txt
 written_2//travel_guides/berlitz2/Bermuda-WhereToGo.txt
 written_2//travel_guides/berlitz2/Vallarta-WhereToGo.txt
 ```
-The -i option was used which means we can search for a specific string ("togo" in this example) insensitively (upper case and lower case does not make a difference). This option is useful when we want to search for a specifc word when there's both upper case and lower case versions of the word.
+The -i option was used which means we can search for a specific string ("togo" in this example) insensitively (upper case and lower case does not make a difference). This option is useful when we want to search for a specifc word when there's both upper case and lower case versions of the word.\
+Source: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 **-c Option**\
 **Example 3**
@@ -75,7 +77,8 @@ grep -c "ToDo" find-results.txt
 ```
 24
 ```
-The -c option was used and allows us to count the number of lines that have a specific string ("ToDo" in this example). This option is useful when you have lots of lines and instead of manually counting which lines have a specific string, you can just use this command.
+The -c option was used and allows us to count the number of lines that have a specific string ("ToDo" in this example). This option is useful when you have lots of lines and instead of manually counting which lines have a specific string, you can just use this command.\
+Source: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 **Example 4**
 ```
@@ -85,7 +88,8 @@ grep -c "Fletcher" find-results.txt
 ```
 7
 ```
-The -c option was used and allows us to count the number of lines that have a specific string ("Fletcher" in this example). This option is useful when you have lots of lines and instead of manually counting which lines have a specific string, you can just use this command.
+The -c option was used and allows us to count the number of lines that have a specific string ("Fletcher" in this example). This option is useful when you have lots of lines and instead of manually counting which lines have a specific string, you can just use this command.\
+Source: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 **-n Option**\
 **Example 5**
@@ -119,7 +123,8 @@ grep -n "ToDo" find-results.txt
 231:written_2//travel_guides/berlitz2/Paris-WhatToDo.txt
 235:written_2//travel_guides/berlitz2/Beijing-WhatToDo.txt
 ```
-The -n option was used and allows us to find the lines that have a specific string ("ToDo" in this example) as well as the line number. This option is useful when you have lots of lines, and you can use the line number to find the specific line in the number rather than manually searching through it.
+The -n option was used and allows us to find the lines that have a specific string ("ToDo" in this example) as well as the line number. This option is useful when you have lots of lines, and you can use the line number to find the specific line in the number rather than manually searching through it.\
+Source: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 **Example 6**
 ```
@@ -152,7 +157,8 @@ grep -n "ToGo" find-results.txt
 233:written_2//travel_guides/berlitz2/Vallarta-WhereToGo.txt
 236:written_2//travel_guides/berlitz2/Cancun-WhereToGo.txt
 ```
-The -n option was used and allows us to find the lines that have a specific string ("ToGo" in this example) as well as the line number. This option is useful when you have lots of lines, and you can use the line number to find the specific line in the number rather than manually searching through it.
+The -n option was used and allows us to find the lines that have a specific string ("ToGo" in this example) as well as the line number. This option is useful when you have lots of lines, and you can use the line number to find the specific line in the number rather than manually searching through it.\
+Source: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 **-v Option**\
 **Example 7**
@@ -267,7 +273,8 @@ written_2//travel_guides/berlitz1/WhatToLasVegas.txt
 written_2//travel_guides/berlitz1/WhatToLosAngeles.txt
 written_2//travel_guides/berlitz2
 ```
-The -v option was used and allows us to find the lines that don't have a specific string ("-" in this example). This option is useful when you want to filter through a file based on a specific string and see the lines that don't match rather than the ones that do.
+The -v option was used and allows us to find the lines that don't have a specific string ("-" in this example). This option is useful when you want to filter through a file based on a specific string and see the lines that don't match rather than the ones that do.\
+Source: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 **Example 8**
 ```
@@ -422,4 +429,5 @@ written_2//travel_guides/berlitz2/Budapest-History.txt
 written_2//travel_guides/berlitz2/Cuba-History.txt
 written_2//travel_guides/berlitz2/Bahamas-History.txt
 ```
-The -v option was used and allows us to find the lines that don't have a specific string ("To" in this example). This option is useful when you want to filter through a file based on a specific string and see the lines that don't match rather than the ones that do.
+The -v option was used and allows us to find the lines that don't have a specific string ("To" in this example). This option is useful when you want to filter through a file based on a specific string and see the lines that don't match rather than the ones that do.\
+Source: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
