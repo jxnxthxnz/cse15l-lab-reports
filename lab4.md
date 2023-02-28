@@ -27,7 +27,7 @@ nano ListExamples.java <enter>
 <down> 42 times
 <right> 12 times
 <delete>
-<2> <enter>
+<2> 
 <ctrl-o> <enter>
 <ctrl-x> <enter>
 ```
