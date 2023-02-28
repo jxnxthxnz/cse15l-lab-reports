@@ -31,7 +31,7 @@ nano ListExamples.java <enter>
 <ctrl-o> <enter>
 <ctrl-x> <enter>
 ```
-I used nano on the file I wanted to change, so I could edit it from my terminal. Move my cursor down and to the right. Change index1 to index2. Save my files via ^o and then exit out of nano with my last command.
+I used nano on the file I wanted to change, so I could edit it from my terminal. Move my cursor down 42 times and to the right 12 times. Delete the "1" in index1 and enter in "2," so it should now be index2. Save my files via ^o and then exit out of nano with my last command.
 ![Image](step7.png)
 
 **Step 8**
