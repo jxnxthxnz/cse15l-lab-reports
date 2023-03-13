@@ -530,7 +530,7 @@ non-fiction/OUP/Castro/chN.txt
 non-fiction/OUP/Castro/chY.txt
 non-fiction/OUP/Castro/chO.txt
 ```
-The -user option was used which means we can search for all the files owned by a specific user. This option is useful when we want to traverse through a list of files by different usernames and see who owns what files.\ 
+The -user option was used which means we can search for all the files owned by a specific user. This option is useful when we want to traverse through a list of files by different usernames and see who owns what files.\
 Source: [Link](https://man7.org/linux/man-pages/man1/find.1.html)
 
 **Example 4**
@@ -744,10 +744,10 @@ written_2/travel_guides
 written_2/travel_guides/berlitz1
 written_2/travel_guides/berlitz2
 ```
-The -type d option was used which means we can search for specifc files types (directories in this example). This option is useful to easily separate large amounts of files based on their distinctive types.\ 
+The -type d option was used which means we can search for specifc files types (directories in this example). This option is useful to easily separate large amounts of files based on their distinctive types.\
 Source: [Link](https://geekflare.com/how-to-use-find-command-in-linux/)
 
-**Example 6**\
+**Example 6**
 ```
 find written_2 -type f > lab5.txt
 ```
@@ -977,7 +977,7 @@ written_2/travel_guides/berlitz2/Bahamas-History.txt
 written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt
 written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt
 ```
-The -type f option was used which means we can search for specifc files types (plain files in this example). This option is useful to easily separate large amounts of files based on their distinctive types.\ 
+The -type f option was used which means we can search for specifc files types (plain files in this example). This option is useful to easily separate large amounts of files based on their distinctive types.\
 Source: [Link](https://geekflare.com/how-to-use-find-command-in-linux/)
 
 **-size Option**\
@@ -1223,10 +1223,10 @@ written_2/travel_guides/berlitz2/Bahamas-History.txt
 written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt
 written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt
 ```
-The -size option was used which means we can search for specifc files by file size (less than 1 gigabyte in this example). This option is useful to easily see which files are larger or smaller than a specific file size.\ 
+The -size option was used which means we can search for specifc files by file size (less than 1 gigabyte in this example). This option is useful to easily see which files are larger or smaller than a specific file size.\
 Source: [Link](https://geekflare.com/how-to-use-find-command-in-linux/)
 
-**Example 8**\
+**Example 8**
 ```
 find written_2 -size -1M > lab5.txt
 ```
@@ -1468,5 +1468,5 @@ written_2/travel_guides/berlitz2/Bahamas-History.txt
 written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt
 written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt
 ```
-The -size option was used which means we can search for specifc files by file size (less than 1 megabyte in this example). This option is useful to easily see which files are larger or smaller than a specific file size.\ 
+The -size option was used which means we can search for specifc files by file size (less than 1 megabyte in this example). This option is useful to easily see which files are larger or smaller than a specific file size.\
 Source: [Link](https://geekflare.com/how-to-use-find-command-in-linux/)
