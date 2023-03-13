@@ -232,8 +232,9 @@ written_2/travel_guides/berlitz2/Bahamas-History.txt
 written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt
 written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt
 ```
-The -iname option was used which means we can search for a specific pattern ("TXT" in this example) insensitively (upper case and lower case does not make a difference). This option is useful when we want to search for a specifc pattern when there's both upper case and lower case versions of the pattern.\
+The -iname option was used which means we can search for a specific pattern ("TXT" in this example) insensitively (upper case and lower case does not make a difference). This option is useful when we want to search for a specifc pattern, and there's both upper case and lower case versions of the pattern.\
 Source: [Link](https://man7.org/linux/man-pages/man1/find.1.html)
+
 **Example 2**
 ```
 find written_2 -iname *tXt > lab5.txt
@@ -465,7 +466,7 @@ written_2/travel_guides/berlitz2/Bahamas-History.txt
 written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt
 written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt
 ```
-The -iname option was used which means we can search for a specific pattern ("tXt" in this example) insensitively (upper case and lower case does not make a difference). This option is useful when we want to search for a specifc pattern when there's both upper case and lower case versions of the pattern.\
+The -iname option was used which means we can search for a specific pattern ("tXt" in this example) insensitively (upper case and lower case does not make a difference). This option is useful when we want to search for a specifc pattern, and there's both upper case and lower case versions of the pattern.\
 Source: [Link](https://man7.org/linux/man-pages/man1/find.1.html)
 
 **-user Option**\
