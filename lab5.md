@@ -744,7 +744,7 @@ written_2/travel_guides
 written_2/travel_guides/berlitz1
 written_2/travel_guides/berlitz2
 ```
-The -type d option was used which means we can search for specifc files types (directories in this example). This option is useful to easily separate large amounts of files based on their distinctive types.\
+The -type d option was used which means we can search for specifc file types (directories in this example). This option is useful to easily separate large amounts of files based on their distinctive types.\
 Source: [Link](https://geekflare.com/how-to-use-find-command-in-linux/)
 
 **Example 6**
@@ -977,7 +977,7 @@ written_2/travel_guides/berlitz2/Bahamas-History.txt
 written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt
 written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt
 ```
-The -type f option was used which means we can search for specifc files types (plain files in this example). This option is useful to easily separate large amounts of files based on their distinctive types.\
+The -type f option was used which means we can search for specifc file types (plain files in this example). This option is useful to easily separate large amounts of files based on their distinctive types.\
 Source: [Link](https://geekflare.com/how-to-use-find-command-in-linux/)
 
 **-size Option**\
