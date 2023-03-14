@@ -232,7 +232,7 @@ written_2/travel_guides/berlitz2/Bahamas-History.txt
 written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt
 written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt
 ```
-The -iname option was used which means we can search for a specific pattern ("TXT" in this example) insensitively (upper case and lower case does not make a difference). This option is useful when we want to search for a specifc pattern, and there's both upper case and lower case versions of the pattern.\
+The -iname option was used which means we can search for a specific pattern ("TXT" in this example) insensitively (upper case and lower case does not make a difference). This option is useful when we want to search for a specific pattern, and there's both upper case and lower case versions of the pattern.\
 Source: [Link](https://man7.org/linux/man-pages/man1/find.1.html)
 
 **Example 2**
@@ -466,7 +466,7 @@ written_2/travel_guides/berlitz2/Bahamas-History.txt
 written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt
 written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt
 ```
-The -iname option was used which means we can search for a specific pattern ("tXt" in this example) insensitively (upper case and lower case does not make a difference). This option is useful when we want to search for a specifc pattern, and there's both upper case and lower case versions of the pattern.\
+The -iname option was used which means we can search for a specific pattern ("tXt" in this example) insensitively (upper case and lower case does not make a difference). This option is useful when we want to search for a specific pattern, and there's both upper case and lower case versions of the pattern.\
 Source: [Link](https://man7.org/linux/man-pages/man1/find.1.html)
 
 **-user Option**\
@@ -744,7 +744,7 @@ written_2/travel_guides
 written_2/travel_guides/berlitz1
 written_2/travel_guides/berlitz2
 ```
-The -type d option was used which means we can search for specifc file types (directories in this example). This option is useful to easily separate large amounts of files based on their distinctive types.\
+The -type d option was used which means we can search for specific file types (directories in this example). This option is useful to easily separate large amounts of files based on their distinctive types.\
 Source: [Link](https://geekflare.com/how-to-use-find-command-in-linux/)
 
 **Example 6**
@@ -1468,5 +1468,5 @@ written_2/travel_guides/berlitz2/Bahamas-History.txt
 written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt
 written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt
 ```
-The -size option was used which means we can search for specifc files by file size (less than 1 megabyte in this example). This option is useful to easily see which files are larger or smaller than a specific file size.\
+The -size option was used which means we can search for specific files by file size (less than 1 megabyte in this example). This option is useful to easily see which files are larger or smaller than a specific file size.\
 Source: [Link](https://geekflare.com/how-to-use-find-command-in-linux/)
