@@ -6,7 +6,7 @@
 find written_2 -iname *TXT > lab5.txt
 ```
 ```
-written_2/non-fiction/OUP/Berk/ch2.txtfind written_2 -iname *TXT > lab5.txt
+written_2/non-fiction/OUP/Berk/ch2.txt
 written_2/non-fiction/OUP/Berk/ch1.txt
 written_2/non-fiction/OUP/Berk/CH4.txt
 written_2/non-fiction/OUP/Berk/ch7.txt
